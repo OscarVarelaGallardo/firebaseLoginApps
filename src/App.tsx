@@ -14,7 +14,7 @@ function App() {
       );
       return;
     }
-    console.log(response.status);
+    console.log(response);
   }
 
   function handleError(error:any) {
