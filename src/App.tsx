@@ -7,7 +7,7 @@ function App() {
   function handleSuccess(response:any) {
     if (response.status === 'connected') {
         //logout
-         window.FB.logout(function(response:any) {
+       window.FB.logout(function(response:any) {
           // user is now logged out
           console.log(response);
         }
